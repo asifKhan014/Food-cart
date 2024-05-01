@@ -1,6 +1,7 @@
 "use client";
 import { useParams, usePathname, useSearchParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
+import Intro from "../_components/Intro";
 
 const RestaurantDetail = () => {
   const pathname = usePathname();
@@ -10,7 +11,9 @@ const RestaurantDetail = () => {
     console.log(pathname.split("/")[2]);
     console.log(params);
   });
-  return <div></div>;
+  return <div>
+    <Intro/>
+  </div>;
 };
 
 export default RestaurantDetail;

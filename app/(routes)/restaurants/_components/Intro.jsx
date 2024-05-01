@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => {
   return (
     <div>
-      this is intro  page.
+      Still working on it.
     </div>
   )
 }
